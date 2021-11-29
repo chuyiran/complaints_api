@@ -12,3 +12,7 @@ const port=process.env.PORT || 3001;
 app.listen(port,()=>{
     console.log(`服务器已经运行在${process.env.NODE_ENV}模式中的${port}端口上！`);
 });
+
+// app.listen(port,()=>{
+//     console.log(`服务器已经运行在${process.env.NODE_ENV}模式中的${port}端口上！`);
+// });
